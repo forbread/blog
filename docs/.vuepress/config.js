@@ -13,23 +13,14 @@ module.exports = {
     },
 
     ],
-    /*  sidebar: {
-        '/first/': [
-          ['','我是首页'],
-          ['one','我是第一个'],
-          ['two','我是第二个']
-        ],
-      
-        '/menus/second/': [
-          ['','我是首页'],
-          ['three','我是第三个'],
-        ],
-        
-        '/menus/third/': [
-          ['','我是首页'],
-          ['one','我是第四个'],
-        ]
-      }*/
+    // 假定 GitHub。也可以是一个完整的 GitLab 网址
+    repo: 'https://github.com/forbread/blog.git',
+    // 如果你的文档不在仓库的根部
+    docsDir: '',
+    // 可选，默认为 master
+    docsBranch: 'master',
+    // 默认为 true，设置为 false 来禁用
+    editLinks: true,
     sidebar: {
       '/first/': [
         {
