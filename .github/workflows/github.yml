@@ -31,7 +31,7 @@ jobs:
       - name: Deploy
         uses: easingthemes/ssh-deploy@v2.0.7
         env:
-          SSH_PRIVATE_KEY: "bc8158ca0135d35a5e99c8383bf04492"
+          SSH_PRIVATE_KEY: ${{secrets.SERVER_SSH_KEY}}
           ARGS: "-avz --delete"
           SOURCE: "docs/.vuepress/dist"
           REMOTE_HOST: "8.135.39.65"
