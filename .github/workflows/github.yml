@@ -35,5 +35,6 @@ jobs:
           ARGS: "-avzr --delete"
           SOURCE: "docs/.vuepress/dist/"
           REMOTE_HOST: "8.135.39.65"
+          REMOTE_PORT: "22"
           REMOTE_USER: "root"
           TARGET: "/home/webroot/dist"
