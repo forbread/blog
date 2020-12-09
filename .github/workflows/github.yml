@@ -34,7 +34,7 @@ jobs:
           SSH_PRIVATE_KEY: ${{secrets.SERVER_SSH_KEY}}
           ARGS: "-avz --delete"
           SOURCE: "docs/.vuepress/dist/"
-          REMOTE_HOST: "8.135.39.65"
+          REMOTE_HOST: "8.135.39.64"
           REMOTE_PORT: "28"
           REMOTE_USER: "root"
           TARGET: "/root/webapp/blog/"
