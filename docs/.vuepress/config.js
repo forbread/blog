@@ -1,6 +1,7 @@
 module.exports = {
   title: '不才的博客',
   description: '我对自己的要求很低：我活在世上，无非想要明白些道理，遇见些有趣的事。倘能如我所愿，我的一生就算成功。',
+  dest:'./dist',
   themeConfig: {
     nav: [{ text: "主页", link: "/" },
     { text: "目录一", link: "/first/" },
