@@ -19,7 +19,7 @@ jobs:
       - name: use Node.js 10
         uses: actions/setup-node@v1
         with:
-          node-version: 10
+          node-version: 12.13.1
       # npm install
       - name: npm install and build
         run: |
@@ -32,8 +32,8 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.0.7
         env:
           SSH_PRIVATE_KEY: ${{secrets.SERVER_SSH_KEY}}
-          ARGS: "-avzr --delete"
-          SOURCE: "dist/"
-          REMOTE_HOST: "8.135.39.65"
-          REMOTE_USER: "root"
-          TARGET: ""
+          ARGS: '-avzr --delete'
+          SOURCE: 'dist/'
+          REMOTE_HOST: '8.135.39.65'
+          REMOTE_USER: 'root'
+          TARGET: ''
