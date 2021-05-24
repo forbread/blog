@@ -10,6 +10,7 @@ module.exports = {
       items: [
         { text: "目录二", link: "/menus/second/" },
         { text: "目录三", link: "/menus/third/" },
+        { text: "目录四", link: "/menus/third/" },
       ]
     },
 
